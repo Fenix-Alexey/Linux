@@ -1,4 +1,4 @@
-# Linux 
+# Linux №1
 Устанавливаем утилиту WGET командой sudo yum install wget
 
 
@@ -34,3 +34,23 @@
 
 ![image](https://github.com/user-attachments/assets/ceb392cc-3441-4bba-86e9-567cb41945fb)
 
+# Linux №2
+Используя адрес ссылки для скачивания репозитория в командной строке Linux "sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo",
+мы cкачиваем инструкцию для приложения Docker.
+
+![image](https://github.com/user-attachments/assets/70566af6-faf2-42c2-9aa2-939068a4e1a0)
+
+
+После этого мы скачиваем само приложение Docker, через адрес ссылки "sudo yum install docker-ce docker-ce-cli containerd.io" в командной сторке Linux и устанавливаем его.
+
+
+![image](https://github.com/user-attachments/assets/431fef79-2767-4118-912b-00960dedaa77)
+![image](https://github.com/user-attachments/assets/abaa56d1-c9ce-48d5-8dd8-f93bf85fedcf)
+![image](https://github.com/user-attachments/assets/e71f7109-678c-4ef8-b03a-fe1208598be2)
+
+
+
+И последнее, что мы делаем, это следующей командой "sudo systemctl enable docker --now" в командной строке Linux, запускаем само приложение Docker и разрешаем ему автозапуск.
+
+
+![image](https://github.com/user-attachments/assets/8c72b6f5-e971-412a-9ca7-947f3759c046)
