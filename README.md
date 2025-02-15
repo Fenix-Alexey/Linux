@@ -49,8 +49,69 @@
 ![image](https://github.com/user-attachments/assets/e71f7109-678c-4ef8-b03a-fe1208598be2)
 
 
-
 И последнее, что мы делаем, это следующей командой "sudo systemctl enable docker --now" в командной строке Linux, запускаем само приложение Docker и разрешаем ему автозапуск.
 
 
 ![image](https://github.com/user-attachments/assets/8c72b6f5-e971-412a-9ca7-947f3759c046)
+
+
+# Linux №3
+Первой командой в командной сроке Linux, мы вводим COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4).
+Эта команда использует несколько утилит для получения и обработки информации о последней версии Docker Compose из репозитория GitHub.
+
+
+![image](https://github.com/user-attachments/assets/ee3fe215-3f2b-4f44-9002-a6aa6e1fc597)
+
+
+Следующей командой в командной строке Linux, мы вводим sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose. 
+Эта команда скачивает исполняемый файл Docker Compose с GitHub и устанавливает его в систему.
+
+
+![image](https://github.com/user-attachments/assets/2a05241d-7b4a-4368-89b1-0c1a3f0aae14)
+
+
+Следующая команда sudo chmod +x /usr/bin/docker-compose изменяет права доступа к файлу /usr/bin/docker-compose, делая его исполняемым.
+
+А вторая команда docker-compose --version выводит версию Docker Compose, в данном случае это Docker Compose version v2.33.0
+
+
+![image](https://github.com/user-attachments/assets/b259a570-d349-4362-903a-88d896c9bd47)
+![image](https://github.com/user-attachments/assets/f1873602-a3ce-468a-945d-aea608ffa3bd)
+
+
+Следующая команда sudo git clone https://github.com/skl256/grafana_stack_for_docker.git, клонирует (копирует) репозиторий Git с GitHub на наш локальный компьютер.
+
+
+![image](https://github.com/user-attachments/assets/ee1b4220-c3d5-4657-a1c4-610ed9ec38b0)
+
+
+Если при выпонении команды  sudo git clone https://github.com/skl256/grafana_stack_for_docker.git возникает ошибка, то прописываем следующую команду sudo yum install git и ошибка будет исправленна.
+
+
+![image](https://github.com/user-attachments/assets/1204da3f-ba4b-4548-993c-96e7c991bf44)
+
+
+Первая команда cd grafana_stack_for_docker меняет текущую рабочую директорию в Linux на директорию grafana_stack_for_docker.
+
+Вторая команда sudo mkdir -p /mnt/common_volume/swarm/grafana/config создает директорию (папку) с указанным путем, включая все необходимые родительские директории, и делает это с правами суперпользователя.
+
+Третья команда sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data} создает несколько директорий внутри /mnt/common_volume/grafana с правами суперпользователя, используя подстановку фигурных скобок для упрощения записи.
+
+Четвертая команда sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana} изменяет владельца и группу указанных директорий и всех их содержимых на текущего пользователя. 
+
+
+![image](https://github.com/user-attachments/assets/c5c2bfb4-2fa4-41b5-995c-48b4c4ef43e5)
+
+
+Первая команда touch /mnt/common_volume/grafana/grafana-config/grafana.ini создает пустой файл с именем grafana.ini в директории /mnt/common_volume/grafana/grafana-config. Если файл уже существует, то команда обновит время последнего доступа и изменения файла.
+
+Вторая команда  cp config/* /mnt/common_volume/swarm/grafana/config/ копирует все файлы из директории config в директорию /mnt/common_volume/swarm/grafana/config/.
+
+Третья команда mv grafana.yaml docker-compose.yaml переименовывает файл grafana.yaml в docker-compose.yaml.
+
+Четвертая команда sudo docker compose up -d запускает приложение, определенное в файле docker-compose.yaml (или docker-compose.yml), в режиме detached (фоновом).
+
+
+![image](https://github.com/user-attachments/assets/761e0074-a089-4709-8335-f8c231b61a2c)
+![image](https://github.com/user-attachments/assets/668d8be1-3cb8-491f-9716-e02032c0c8fc)
+
