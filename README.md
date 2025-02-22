@@ -115,3 +115,28 @@
 ![image](https://github.com/user-attachments/assets/761e0074-a089-4709-8335-f8c231b61a2c)
 ![image](https://github.com/user-attachments/assets/668d8be1-3cb8-491f-9716-e02032c0c8fc)
 
+
+# Linux №4
+Переходим в папку к файлу Docker compose. yaml через команду cd grafana_stack_for_docker/.
+Затем запускаем сам Docker compose через команду sudo docker compose up -d.
+После этого останавливаем работу Docker compoose через команду sudo docker compose stop.
+
+
+![image](https://github.com/user-attachments/assets/a30b1d8f-97af-458f-830f-994c43d100c8)
+
+Далее снова запускаем Docker compose через команду sudo docker compose -d.
+И следующей командой sudo docker compose down, мы также останавливаем Docker compose, но и очищаем контейнера Docker compose.
+
+
+![image](https://github.com/user-attachments/assets/8efa4ee9-d098-4646-870c-09d4b3f19b11)
+
+Дальше мы снова запускаем Docker compose и теперь уже прописываем команду sudo docker compose ps.
+Эта команда нужна чтобы посмотреть статус Docker compose и его контейнера или, то что в нем запущено.
+
+
+![image](https://github.com/user-attachments/assets/b727f9b3-0254-44b1-92e6-22419b20bac1)
+
+Потом мы вводим команду PWD для просмотра пути к файлу.
+
+
+![image](https://github.com/user-attachments/assets/38d5555e-4d77-4104-b14c-955d7a7959f4)
