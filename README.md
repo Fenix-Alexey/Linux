@@ -131,7 +131,7 @@
 ![image](https://github.com/user-attachments/assets/8efa4ee9-d098-4646-870c-09d4b3f19b11)
 
 Дальше мы снова запускаем Docker compose и теперь уже прописываем команду sudo docker compose ps.
-Эта команда нужна, чтобы посмотреть статус Docker compose и его контейнера или, то что в нем запущено.
+Эта команда нужна, чтобы посмотреть статус Docker compose и его контейнера или то, что в нем запущено.
 
 
 ![image](https://github.com/user-attachments/assets/b727f9b3-0254-44b1-92e6-22419b20bac1)
