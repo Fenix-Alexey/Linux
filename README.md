@@ -140,3 +140,14 @@
 
 
 ![image](https://github.com/user-attachments/assets/38d5555e-4d77-4104-b14c-955d7a7959f4)
+
+# Linux №5
+![image](https://github.com/user-attachments/assets/ac2e63a4-2808-44d2-bf28-107f2c8ecabc)
+
+![image](https://github.com/user-attachments/assets/5a88c30c-9ac0-4145-b224-1d8210345f6a)
+
+![image](https://github.com/user-attachments/assets/6da228ea-af55-4357-831e-376f3a1682ac)
+
+![image](https://github.com/user-attachments/assets/d892d350-65fc-4267-9abb-a89f88650d63)
+
+
