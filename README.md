@@ -159,7 +159,4 @@
 
 ![image](https://github.com/user-attachments/assets/33facce2-0d65-4d08-a0a2-033652b1996a)
 
-![image](https://github.com/user-attachments/assets/0e657082-1a2c-49d3-8028-067b82d369ca)
-![image](https://github.com/user-attachments/assets/f45c8709-f0ee-404d-b4de-92e080014c32)
 ![image](https://github.com/user-attachments/assets/3d4dc321-abbe-4e75-88c1-d32c76b83b24)
-
