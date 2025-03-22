@@ -151,3 +151,10 @@
 ![image](https://github.com/user-attachments/assets/1351784f-46bb-4aa6-8c6b-bf3417a6f274)
 
 # Linux №6
+![image](https://github.com/user-attachments/assets/7b4a2f05-e310-4d77-ba4b-02b8e9eca55c)
+
+![image](https://github.com/user-attachments/assets/e068af2c-7003-47eb-b794-92b50e7f4c0e)
+
+![image](https://github.com/user-attachments/assets/ec4d11ef-bdfb-42d4-85c6-1a4b89e8f350)
+
+![image](https://github.com/user-attachments/assets/9a0a2a17-881c-4f07-9347-44f4bfde5c56)
