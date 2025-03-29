@@ -145,10 +145,30 @@
 Перемещаем файл prometeus.yaml в /mnt/common_volume/swarm/grafana/config/ заменяя предыдущий файл.
 
 sudo mv prometeus.yaml /mnt/common_volume/swarm/grafana/config/
-Нужно переименовать файл правильным названием в prometheus.yaml1, но перед этим нужно сделать Бэкап придыдущего файла prometheus.yaml(рис. 1).
-
+Нужно переименовать файл правильным названием в prometheus.yaml1, но перед этим нужно сделать Бэкап придыдущего файла prometheus.yaml (рис. 1).
 ![image](https://github.com/user-attachments/assets/d503c324-d37b-471f-9680-85aae58c5c47)
+                                    Рисунок 1 - Бэкап
 
+Поднял контейнеры Docker через команду, для того чтобы зайти в него через браузер.
+
+sudo docker compose up -d
+Чтобы зайти в него нужно прописать в поиске
+
+localhost:3000
+Пароль и логин: admin admin
+
+После того как зашли, нужно создать Dashboards. Путь где его можно создать Home -> Connections -> Data sources -> Add data source
+
+Где нужно нажать на +Add visualization -> Configure a new data source -> Prometheus
+
+Настройки:
+Connection: http://prometheus:9090
+Authentication: Basic authentication
+После того как все настроили нажимаем Save & test
+
+Cоздав Dashboards импортируем его: Путь где его можно импортировать Home -> Dashboards -> Import dashboard
+
+В поле нужно написать 1860 -> Load (рис. 1). Select Prometheus -> Import -> Название Prometheus
 ![image](https://github.com/user-attachments/assets/e1bab787-4d6b-4584-aaf4-3e6eec257404)
 
 ![image](https://github.com/user-attachments/assets/3c16e9c8-498b-472a-9f05-3ea213625c30)
