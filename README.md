@@ -147,8 +147,7 @@
 sudo mv prometeus.yaml /mnt/common_volume/swarm/grafana/config/
 Нужно переименовать файл правильным названием в prometheus.yaml1, но перед этим нужно сделать Бэкап придыдущего файла prometheus.yaml (рис. 1).
 
-![image](https://github.com/user-attachments/assets/d503c324-d37b-471f-9680-85aae58c5c47) Рисунок 1 - Бэкап
-
+![image](https://github.com/user-attachments/assets/d503c324-d37b-471f-9680-85aae58c5c47) 
 Поднял контейнеры Docker через команду, для того чтобы зайти в него через браузер.
 
 sudo docker compose up -d
