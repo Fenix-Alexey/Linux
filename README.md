@@ -142,6 +142,11 @@
 ![image](https://github.com/user-attachments/assets/38d5555e-4d77-4104-b14c-955d7a7959f4)
 
 # Linux №5
+Перемещаем файл prometeus.yaml в /mnt/common_volume/swarm/grafana/config/ заменяя предыдущий файл.
+
+sudo mv prometeus.yaml /mnt/common_volume/swarm/grafana/config/
+Нужно переименовать файл правильным названием в prometheus.yaml, но перед этим нужно сделать Бэкап придыдущего файла prometheus.yaml
+
 ![image](https://github.com/user-attachments/assets/d503c324-d37b-471f-9680-85aae58c5c47)
 
 ![image](https://github.com/user-attachments/assets/e1bab787-4d6b-4584-aaf4-3e6eec257404)
