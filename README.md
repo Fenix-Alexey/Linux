@@ -171,8 +171,7 @@ Cоздав Dashboards импортируем его: Путь где его м�
 В поле нужно написать 1860 -> Load. Select Prometheus -> Import -> Название Prometheus
 
 ![image](https://github.com/user-attachments/assets/750be4f3-9d28-4477-b998-414599a30040) 
-                           Рисунок 1 - Импорт prometheus
-
+    
 ![image](https://github.com/user-attachments/assets/1351784f-46bb-4aa6-8c6b-bf3417a6f274)
 
 # Linux №6
