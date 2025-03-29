@@ -145,7 +145,7 @@
 Перемещаем файл prometeus.yaml в /mnt/common_volume/swarm/grafana/config/ заменяя предыдущий файл.
 
 sudo mv prometeus.yaml /mnt/common_volume/swarm/grafana/config/
-Нужно переименовать файл правильным названием в prometheus.yaml1, но перед этим нужно сделать Бэкап придыдущего файла prometheus.yaml (рис. 1).
+Нужно переименовать файл правильным названием в prometheus.yaml1, но перед этим нужно сделать Бэкап придыдущего файла prometheus.yaml.
 
 ![image](https://github.com/user-attachments/assets/d503c324-d37b-471f-9680-85aae58c5c47)         
 
