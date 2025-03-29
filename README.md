@@ -149,7 +149,7 @@ sudo mv prometeus.yaml /mnt/common_volume/swarm/grafana/config/
 
 ![image](https://github.com/user-attachments/assets/d503c324-d37b-471f-9680-85aae58c5c47) 
 
-Рисунок 1 - Бэкап
+                                Рисунок 1 - Бэкап
 
 Поднял контейнеры Docker через команду, для того чтобы зайти в него через браузер.
 
