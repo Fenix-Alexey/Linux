@@ -172,6 +172,7 @@ Cоздав Dashboards импортируем его: Путь где его м�
 ![image](https://github.com/user-attachments/assets/e1bab787-4d6b-4584-aaf4-3e6eec257404)
 
 ![image](https://github.com/user-attachments/assets/3c16e9c8-498b-472a-9f05-3ea213625c30)
+                                  Рисунок 1 - Импорт prometheus
 
 ![image](https://github.com/user-attachments/assets/1351784f-46bb-4aa6-8c6b-bf3417a6f274)
 
