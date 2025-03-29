@@ -162,8 +162,11 @@ localhost:3000
 Где нужно нажать на +Add visualization -> Configure a new data source -> Prometheus
 
 Настройки:
+
 Connection: http://prometheus:9090
+
 Authentication: Basic authentication
+
 После того как все настроили нажимаем Save & test
 
 Cоздав Dashboards импортируем его: Путь где его можно импортировать Home -> Dashboards -> Import dashboard
